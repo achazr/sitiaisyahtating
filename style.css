@@ -8,7 +8,7 @@
     background: #f1f1f1;
   }
   
-  /* Header/Blog Title */
+ 
   .header {
       padding: 80px;
     text-align: center;
@@ -20,14 +20,14 @@
     font-size: 50px;
   }
   
-  /* Style the top navigation bar */
+ 
   .topnav {
     overflow: hidden;
     background-color: #333;
     text-align: center;
   }
   
-  /* Style the topnav links */
+
   .topnav a {
     float: left;
     display: block;
@@ -37,14 +37,12 @@
     text-decoration: none;
   }
   
-  /* Change color on hover */
+ 
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
   .leftcolumn {  
     line-height: 2.5;
     float: left;
@@ -52,7 +50,14 @@
     text-align: center;
   }
   
-  /* Right column */
+  h2 {
+    font-family: 'Times New Roman', serif;
+    color:#89CFF0;
+    size: 20px;
+  
+    
+    }
+
   .rightcolumn {
     float: left;
     width: 25%;
@@ -61,30 +66,30 @@
     text-align: center;
   }
   
-  /* Fake image */
+
   .fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
   }
   
-  /* Add a card effect for articles */
+  
   .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
   }
   
-  /* Clear floats after the columns */
+ 
   .row::after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Footer */
-  .footer {
-    font-size:xx-small;
+ 
+  footer {
+    font-size:small;
     padding: 8px;
     text-align: center;
     background: #ddd;
